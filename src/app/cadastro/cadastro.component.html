@@ -1,0 +1,25 @@
+<section id="user">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="display-4 mt-3 text-center"><strong>INSERIR USUÁRIOS</strong></h1>
+            <hr class="my-4">
+        </div>
+    </div>
+        <div class="row" id="margem">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h3 class='mt-3 text-left'>INFORMAÇÕES</h3>
+                <p class="text-left mt-3 mb-1"><strong>NOME:</strong></p>
+                <input class="btn" type="text" [(ngModel)]="usuario.nome">
+                <p class="text-left mt-3 mb-1"><strong>TELEFONE:</strong></p>
+                <input class="btn" type="tel" [(ngModel)]="usuario.telefone">
+                <p class="text-left mt-3 mb-1"><strong>EMAIL:</strong></p>
+                <input class="btn" type="email" [(ngModel)]="usuario.email">
+                <p class="text-left mt-3 mb-1"><strong>SENHA:</strong></p>
+                <input class="btn" type="password" [(ngModel)]="usuario.senha">
+                <br>
+                <button value="button" class="btn btn-outline botao mt-4 mb-3" (click)="enviar()">ENVIAR</button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+</section>

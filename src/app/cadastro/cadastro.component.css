@@ -1,0 +1,47 @@
+h1{
+    color: #0d4d66;
+}
+
+h3, h5{
+    color: #0d4d66; 
+    font-family: fantasy;
+}
+#margin{
+    margin-left: 35%;
+}
+input{
+    width: 30%;
+    box-shadow: none;
+}
+
+.btn{
+    border-color: #0d4d66;
+    background-color: white;
+    font-weight:bolder;
+    text-decoration:none;
+    margin-left: 0.1%;
+    box-shadow: none;
+}
+
+.botao{
+    border-color: #0d4d66;
+    background-color: rgb(207, 228, 230);
+    font-weight:bolder;
+    text-decoration:none;
+    color: #0d4d66;
+    box-shadow: none;
+}
+.botao:hover{
+    background-color: #0d4d66;
+    border-color: #0d4d66;
+    color: white;
+    box-shadow: none;
+}
+#entrada{
+    margin-left: 35%;
+    padding-bottom: 1%;
+}
+
+#user{
+    background-color: rgb(207, 228, 230);
+}

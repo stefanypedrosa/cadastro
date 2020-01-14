@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+footer{
+    background-color: rgb(175, 221, 224);
+    font-family: 'Permanent Marker', cursive;
+    font-weight:bolder;
+}
+img{
+    margin-bottom: 1%;
+}
+
+a{
+    margin-left: 40%;
+    text-decoration:none;
+    color: #0d4d66;
+}

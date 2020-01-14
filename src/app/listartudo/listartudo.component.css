@@ -1,0 +1,14 @@
+  
+h1{
+    color: #0d4d66;
+}
+
+h3, h5{
+    color: #0d4d66; 
+    font-family: fantasy;
+}
+
+
+#user{
+    background-color: rgb(207, 228, 230);
+}
